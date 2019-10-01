@@ -44,9 +44,10 @@ npm run dev
 
 ---
 
-### `Node cache memory Infomation`
-1. For simple demo purpose have used node cache memory alternativelly can use any Database of File System to store the Payslip for audit purpose.
-2. The cache memory will be active for 15 minutes.
+### `Node cache memory Information`
+1. For simple demo purpose  - Have used node cache memory - Alternativelly can use any Database or File System to store the Payslip for audit purpose.
+2. As per the configuration - The cache memory will be active for 15 minutes. 
+i.e. if a payslip is added it will be available for 15 min and the same combination of data will not be saved again as per the server side logic.
 
 ---
 ### `Summary`
