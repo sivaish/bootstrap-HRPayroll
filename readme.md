@@ -18,7 +18,7 @@
 
 ### `Execution Steps`
 1. Follow the above steps to install nodejs - If already installed go to step 2.
-2. Download or clone the repository 
+2. Download or clone the repository https://github.com/sivaish/bootstrap-HRPayroll.git
 3. Open the Terminal or Bash or Powershell.
 4. To make sure the nodejs has been successfully installed - Use the below commands - The result would be its corresponding versions (for instance in my machine it is V10.1.0 and 6.11.3).
 
