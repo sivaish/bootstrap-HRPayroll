@@ -1,0 +1,85 @@
+body {
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1325px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 5px;
+    padding: 5px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    font-style: oblique;
+    margin-top: 35px;
+    border-bottom: 3px solid #eeeeee;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+    border: 1px solid #888888;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+    float: right;
+}
+
+.th-lg {
+    width: 16rem;
+}
+
+.th-sm {
+    width: 9rem;
+}
+
+table {
+    table-layout: fixed;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+label {
+    font-weight:bold;
+}
+
+.symbol::before { 
+    content: "$";
+    font-weight: bold;
+  }
